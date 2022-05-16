@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32428.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerEarthClient", "HackerEarthClient\HackerEarthClient.csproj", "{2EB8CCBD-1B27-421C-926F-05E91A9A5A28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerEarthAlgorithms", "HackerEarthAlgorithms\HackerEarthAlgorithms.csproj", "{4C1BEDDB-5062-48C7-AB69-39BB943C1739}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EB8CCBD-1B27-421C-926F-05E91A9A5A28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EB8CCBD-1B27-421C-926F-05E91A9A5A28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EB8CCBD-1B27-421C-926F-05E91A9A5A28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EB8CCBD-1B27-421C-926F-05E91A9A5A28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C1BEDDB-5062-48C7-AB69-39BB943C1739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C1BEDDB-5062-48C7-AB69-39BB943C1739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C1BEDDB-5062-48C7-AB69-39BB943C1739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C1BEDDB-5062-48C7-AB69-39BB943C1739}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E51B6D8-F245-48A9-AF1B-D52F14713D38}
+	EndGlobalSection
+EndGlobal
