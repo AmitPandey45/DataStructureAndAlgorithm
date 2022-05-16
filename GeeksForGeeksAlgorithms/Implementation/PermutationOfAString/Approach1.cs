@@ -5,13 +5,17 @@ namespace GeeksForGeeksAlgorithms.Implementation.PermutationOfAString
 {
     public class Approach1 : IProgram
     {
+        private readonly IInputReader inputReader;
+
+        public Approach1(IInputReader inputReader)
+        {
+            this.inputReader = inputReader;
+        }
+
         public void Execute()
         {
-            string input;
             string answer = string.Empty;
-
-            Console.Write("Enter the string : ");
-            input = Console.ReadLine();
+            string input = this.inputReader.InputString();
 
             Console.WriteLine("All possible strings are : ");
             this.Permute(input, answer);
