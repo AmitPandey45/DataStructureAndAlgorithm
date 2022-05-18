@@ -16,17 +16,8 @@ namespace GeeksForGeeksAlgorithms.Implementation.SortArrayStringsAccordingToLeng
         public void Execute()
         {
             string[] input = this.inputReader.ArrayStringReader();
-            this.ModifiedArray(input);
 
             this.DisplayStringsAccordingToLength(input);
-        }
-
-        private void ModifiedArray(string[] input)
-        {
-            input[0] = "Test1";
-            input[1] = "Test2";
-            input[2] = "Test3";
-            input[3] = "Test4";
         }
 
         private void DisplayStringsAccordingToLength(string[] input)

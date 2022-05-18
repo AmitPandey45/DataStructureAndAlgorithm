@@ -8,6 +8,8 @@
 
         string InputString();
 
+        string InputString(string message);
+
         string[] ArrayStringReader();
 
         int[] ArrayIntegerReader();

@@ -26,6 +26,13 @@ namespace CommonAlgorithms.Impementation
             return input;
         }
 
+        public string InputString(string message)
+        {
+            Console.Write($"{message}: ");
+            string input = Console.ReadLine();
+            return input;
+        }
+
         public int[] ArrayIntegerReader()
         {
             Console.Write("Number Of values: ");
